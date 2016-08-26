@@ -1,0 +1,25 @@
+.img-full{
+  width: 100%
+}
+.no-horizontal-padding{
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.userDetail{
+  &:last-child{
+    margin-bottom: 1rem;
+  }
+  ul{
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    li {
+      width: 33%;
+      float: left;
+      text-align: center;
+    }
+  }
+
+}
